@@ -1,0 +1,26 @@
+<html>
+<meta charset="utf-8">
+<head>
+<title>Welcome to Javascript Loops</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+var text=" ";
+var boy={
+  name:"Ankit",
+  city:"M.P.",
+  hobbie:"Cricket",
+  food:"Dal_Chawal"
+};
+
+//delete boy.hobbie;
+
+for (var x in boy){
+   text=text+boy[x]+" ";
+}
+
+document.getElementById('demo').innerHTML=text;
+</script>
+</body>
+</html>
